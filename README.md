@@ -2,7 +2,7 @@
 
 **Mobilidade urbana acessível para cadeirantes e pessoas com mobilidade reduzida.**
 
-Global Solution 2026/2 – CitizenTech · Microservice and Web Engineering & IT Services · 3º SIPF
+Global Solution 2026/2 – CitizenTech · Microservice and Web Engineering & IT Services · 3º SIS
 Profª Aparecida F. Castello Rosa
 
 ## Integrantes
