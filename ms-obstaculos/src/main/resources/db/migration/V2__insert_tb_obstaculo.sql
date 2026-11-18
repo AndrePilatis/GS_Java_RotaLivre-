@@ -1,0 +1,8 @@
+INSERT INTO tb_obstaculo (trecho_id, tipo, gravidade, descricao, latitude, longitude, origem, status, data_registro, data_resolucao) VALUES
+(4, 'RAMPA_INEXISTENTE', 'ALTA', 'Sensor da cadeira de rodas registrou desnível de 18 cm na esquina com a Rua São Joaquim, sem rampa de acesso.', -23.558900, -46.635100, 'SENSOR_IOT', 'REPORTADO', TIMESTAMPADD(HOUR, -2, UTC_TIMESTAMP()), NULL),
+(5, 'VEICULO_NA_CALCADA', 'BAIXA', 'Carro estacionado sobre a calçada deixa menos de 1 metro livre para a passagem.', -23.559700, -46.673900, 'COMUNIDADE', 'REPORTADO', TIMESTAMPADD(MINUTE, -40, UTC_TIMESTAMP()), NULL),
+(2, 'OBRA', 'ALTA', 'Obra da concessionária ocupa toda a calçada, sem passagem alternativa sinalizada.', -23.557200, -46.657500, 'COMUNIDADE', 'CONFIRMADO', TIMESTAMPADD(DAY, -4, UTC_TIMESTAMP()), NULL),
+(3, 'CALCADA_IRREGULAR', 'MEDIA', 'Piso solto e raízes de árvore levantando a calçada em frente ao número 930.', -23.547800, -46.651300, 'SENSOR_IOT', 'CONFIRMADO', TIMESTAMPADD(HOUR, -53, UTC_TIMESTAMP()), NULL),
+(6, 'ENTULHO', 'MEDIA', 'Relato de entulho de reforma na calçada; na vistoria o material já tinha sido retirado.', -23.560400, -46.644300, 'COMUNIDADE', 'DESCARTADO', TIMESTAMPADD(DAY, -5, UTC_TIMESTAMP()), NULL),
+(1, 'BURACO', 'MEDIA', 'Buraco de cerca de 40 cm no piso, próximo ao ponto de ônibus.', -23.565800, -46.651400, 'SENSOR_IOT', 'RESOLVIDO', TIMESTAMPADD(DAY, -7, UTC_TIMESTAMP()), TIMESTAMPADD(DAY, -1, UTC_TIMESTAMP())),
+(2, 'CALCADA_IRREGULAR', 'BAIXA', 'Desnível de cerca de 5 cm entre as placas do piso, perto da faixa de pedestres.', -23.557800, -46.658100, 'COMUNIDADE', 'CONFIRMADO', TIMESTAMPADD(HOUR, -60, UTC_TIMESTAMP()), NULL);
